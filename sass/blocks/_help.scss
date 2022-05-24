@@ -1,0 +1,104 @@
+.help {
+    min-height: 775px;
+    background: #fff;
+    padding-bottom: 50px;
+    &__title {
+        width: 578px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 62px;
+    }
+    &__left {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__right {
+        &_image {
+            cursor: pointer;
+            &_block {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,.9);
+                left: 0;
+                top: 0;
+                padding-top: 100px;
+                z-index: 130;
+                display: none;
+                &_image {
+                    position: relative;
+                }
+                img {
+                    max-width: 500px;
+                    height: 500px;
+                    display: block;
+                    margin: 0 auto;
+                }
+                &_active {
+                    display: block;
+                }
+                &_close {
+                    position: absolute;
+                    top: 0;
+                    font-size: 40px;
+                    right: 34%;
+                    top: -3%;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+        &_descr {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: #5F6970;
+            width: 249px;
+            margin-top: 20px;
+        }
+        &_button {
+            margin-top: 43px;
+        }
+    }
+    &__item {
+        margin: 0 20px;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:nth-child(3) {
+            margin-left: 0;
+        }
+        width: 40%;
+        &_block {
+            width: 370px;
+            height: 301px;
+            background: linear-gradient(0deg, #F3F8FC, #F3F8FC);
+            margin-bottom: 22px;
+            &_title {
+                padding-left: 31px;
+                padding-top: 31px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                color: #272D31;
+            }
+            &_descr {
+                padding-left: 31px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+                color: #5F6970;
+                width: 298px;
+                margin-top: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+.button {
+    &--header {
+        width: 153px;
+        height: 38px;
+        background: none;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        span {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 110%;
+            color: #000000;
+        }
+    }
+    &--promo {
+        width: 210px;
+        height: 60px;
+        background: #3E62AC;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        span {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 110%;
+            color: #FFFFFF;
+        }
+    }
+    &--example {
+        width: 210px;
+        height: 60px;
+        background: #3E62AC;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        margin-top: 40px;
+        span {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 110%;
+            color: #FFFFFF;
+        }
+    }
+    &--help {
+        width: 259px;
+        height: 60px;
+        background: #3E62AC;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        span {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 110%;
+            color: #FFFFFF;
+        }
+    }
+    &--order {
+        width: 180px;
+        height: 64px;
+        background: #3E62AC;
+        border-radius: 4px;
+        border: none;
+        span {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 110%;
+            color: #FFFFFF;
+        }
+    }
+    &--stock {
+        width: 180px;
+        height: 64px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: none;
+        span {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 110%;
+            color: #3E62AC;
+        }
+    }
+    &--connection {
+        width: 180px;
+        height: 64px;
+        background: #3E62AC;
+        border-radius: 4px;
+        border: none;
+        span {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 110%;
+            color: #FFFFFF;
+        }
+    }
+    &--report {
+        width: 149px;
+        height: 57px;
+        background: rgba(255,255,255,.3);
+        border-radius: 10px;
+        border: none;
+        span {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 121.5%;
+            color: #FFFFFF;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+body.lock {
+    overflow: hidden;
+}
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/title';
+@import 'blocks/vote';
+@import 'blocks/example';
+@import 'blocks/help';
+@import 'blocks/price';
+@import 'blocks/additional';
+@import 'blocks/examination';
+@import 'blocks/report';
+@import 'blocks/order';
+@import 'blocks/stock';
+@import 'blocks/contacts';
+@import 'blocks/connection';
+@import 'blocks/connection';
+@import 'blocks/footer';
+@import 'blocks/arrow';
+@import 'blocks/media';

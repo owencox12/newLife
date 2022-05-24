@@ -1,0 +1,73 @@
+.price {
+    min-height: 815px;
+    background: #F3F8FC;
+    &__title {
+        padding-top: 75px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+    }
+    &__item {
+        &_blocks {
+            &_block {
+                display: flex;
+                width: 660px;
+                height: 162px;
+                border-radius: 16px;
+                background: #fff;
+                margin-bottom: 40px;
+                &_text {
+                    padding-left: 40px;
+                    padding-top: 30px;
+                    &_title {
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 150%;
+                        color: #272D31;
+                        margin-bottom: 10px;
+                    }
+                    &_descr {
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 150%;
+                        color: #5F6970;
+                        span {
+                            color: #3E62AC;
+                        }
+                    }
+                }
+            }
+        }
+        &_tabls {
+            width: 460px;
+            height: 566px;
+            background: #FFFFFF;
+            border: 1px solid #728DC3;
+            border-radius: 16px;
+            position: relative;
+            &_tabl {
+                display: flex;
+                align-items: center;
+                padding-left: 30px;
+                margin-top: 50px;
+                z-index: 10;
+                &_text {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #272D31;
+                    width: 204px;
+                    margin-left: 90px;
+                }
+            }
+        }
+    }
+}

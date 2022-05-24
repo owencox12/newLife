@@ -1,0 +1,57 @@
+.promo {
+    background: url(../../image/promoB.png) center center / cover no-repeat;
+    min-height: 800px;
+    position: relative;
+    &__title {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        color: #5F6970;
+        width: 261px;
+        padding-top: 140px;
+        position: relative;
+        z-index: 10;
+    }
+    &__image {
+        position: absolute;
+        right: 115px;
+        bottom: 0;
+        img {
+            width: 120%;
+        }
+    }
+    &__subtitle {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 110%;
+        color: #272D31;
+        margin-top: 22px;
+        position: relative;
+        z-index: 10;
+        width: 749px;
+        span {
+            font-weight: 400;
+        }
+    }
+    &__descr {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #5F6970;
+        width: 413px;
+        margin-top: 20px;
+        position: relative;
+        z-index: 10;
+    }
+    &__button {
+        margin-top: 41px;
+        position: relative;
+        z-index: 10;
+    }
+}

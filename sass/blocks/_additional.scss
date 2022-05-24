@@ -1,0 +1,54 @@
+.additional {
+    min-height: 500px;
+    background: #fff;
+    position: relative;
+    &__titles {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 101px;
+    }
+    &__item {
+        margin-top: 64px;
+        &_block {
+            width: 360px;
+            min-height: 200px;
+            background: #F3F8FC;
+            border-radius: 16px;
+            position: relative;
+            padding-bottom: 15px;
+            &_image {
+                position: absolute;
+                top: -20%;
+                z-index: 100;
+                left: 40px;
+            }
+            &_descr {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                color: #272D31;
+                width: 291px;
+                position: absolute;
+                bottom: 20px;
+                left: 40px;
+            }
+        }
+    }
+}
+
+.swiper-next {
+    position: absolute;
+    right: 10%;
+    z-index: 120;
+    top: 60%;
+    cursor: pointer;
+}
+.swiper-prev {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    z-index: 120;
+    cursor: pointer;
+}

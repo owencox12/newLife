@@ -1,0 +1,53 @@
+.connection {
+    &__block {
+        background: #F3F8FC;
+        min-height: 456px;
+        &_title {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 110%;
+            text-align: center;
+            color: #272D31;
+            width: 470px;
+            margin: 0 auto;
+            padding-top: 60px;
+        }
+        &_descr {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            text-align: center;
+            color: #5F6970;
+            width: 438px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        &_form {
+            text-align: center;
+            margin-top: 40px;
+            input {
+                width: 180px;
+                height: 64px;
+                background: #FFFFFF;
+                border: 1px solid #E1E9F0;
+                border-radius: 4px;
+                padding-left: 20px;
+            }
+        }
+        &_text {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 250;
+            font-size: 14px;
+            line-height: 150%;
+            color: #5F6970;
+            width: 410px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+}

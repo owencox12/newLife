@@ -1,0 +1,21 @@
+.arrowUp {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s;
+    z-index: 6000;
+    &__active {
+        opacity: 1;
+        transition: all .3s;
+        pointer-events: all;
+        cursor: pointer;
+    }
+    &__image {
+        img {
+            width: 70px;
+            height: 70px;
+        }
+    }
+}

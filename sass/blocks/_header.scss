@@ -1,0 +1,97 @@
+.header {
+    background: #fff;
+    &__inner {
+        padding-top: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding-bottom: 15px;
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_item {
+            display: flex;
+            align-items: center;
+            &_burger {
+                display: none;
+            }
+            &_icons {
+                display: flex;
+                &_icon {
+                    margin: 0 17px;
+                }
+            }
+            &_adress {
+                margin-right: 45px;
+                &_image {
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            &_button {
+                margin-right: 40px;
+            }
+            &_links {
+                &_tel {
+                    a {
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 110%;
+                        color: #000000;
+                        text-decoration: none;
+                    }
+                }
+                &_descr {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 110%;
+                    color: #000000;
+                    text-align: right;
+                }
+            }
+        }
+    }
+    &__menu {
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &_item {
+            padding: 15px 55px;
+            cursor: pointer;
+            border-right: 1px solid rgba(0,0,0,.1);
+            &:first-child {
+                border-left: 1px solid rgba(0,0,0,.1);
+            }
+            span {
+                a {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 110%;
+                    color: #000000;
+                    text-decoration: none;
+                    outline: none;
+                }
+            }
+            &:hover {
+                background: #000;
+                transition: all .3s;
+                span {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    &__burger_list {
+        display: none;
+    }
+}

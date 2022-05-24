@@ -1,0 +1,57 @@
+.stock {
+    min-height: 577px;
+    position: relative;
+    &__title {
+        padding-top: 100px;
+    }
+    &__block {
+        display: flex;
+        border-radius: 16px;
+        margin-top: 40px;
+        &_left {
+            background: #3E62AC;
+            padding-left: 40px;
+            padding-top: 40px;
+            width: 50%;
+            &_title {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 130%;
+                width: 379px;
+                color: #FFFFFF;
+                span {
+                    font-weight: 700;
+                }
+            }
+            &_descr {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 130%;
+                color: #FFFFFF;
+                width: 379px;
+            }
+            &_button {
+                margin-top: 24px;
+            }
+        }
+    }
+}
+
+.swiper-next-s3 {
+    position: absolute;
+    right: 3%;
+    top: 60%;
+    cursor: pointer;
+    z-index: 120;
+}
+.swiper-prev-s3 {
+    position: absolute;
+    left: 3%;
+    top: 60%;
+    cursor: pointer;
+    z-index: 120;
+}

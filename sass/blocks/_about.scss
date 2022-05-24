@@ -1,0 +1,114 @@
+.about {
+    min-height: 1200px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    &__item {
+        &_block {
+            width: 661px;
+            height: 350px;
+            background: #3E62AC;
+            border-radius: 15px;
+            &_image {
+                padding-top: 80px;
+                padding-left: 100px;
+            }
+        }
+        &_title {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 110%;
+            color: #272D31;
+            margin-top: 58px;
+        }
+        &_descr {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 130%;
+            color: #5F6970;
+            width: 660px;
+            margin-top: 20px;
+        }
+        &_watch {
+            margin-top: 20px;
+            &_info {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                span {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 30.6612px;
+                    line-height: 130%;
+                    color: #FB0000;
+                    margin-left: 14px;
+                    margin-top: 10px;
+                }
+            }
+        }
+        &_blocks {
+            display: flex;
+            flex-direction: column;
+            background: #F3F8FC;
+            border-radius: 16px;
+            width: 360px;
+            height: 939px;
+            &_block {
+                border-bottom: 1px solid #D4E1EB;
+                padding-bottom: 60px;
+                &_last {
+                    border-bottom: none;
+                }
+                &_title {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 100%;
+                    text-align: center;
+                    color: #272D31;
+                    margin-top: 40px;
+                }
+                &_descr {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 100%;
+                    text-align: center;
+                    color: #5F6970;
+                    margin-top: 15px;
+                }
+                &_image {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 12px;
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 60px;
+                    &_first {
+                        background: #35909C;
+                    }
+                    &_second {
+                        background: #3E62AC;
+                    }
+                    &_third {
+                        background: #62359C;
+                    }
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

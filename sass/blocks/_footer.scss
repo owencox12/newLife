@@ -1,0 +1,21 @@
+.footer {
+    min-height: 236px;
+    background: #fff;
+    &__text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 250;
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        color: #5F6970;
+        padding-top: 46px;
+    }
+    &__image {
+        margin-top: 25px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.vote {
+    min-height: 920px;
+    background: #F3F8FC;
+    &__title {
+        padding-top: 80px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    &__item {
+        display: flex;
+        width: 560px;
+        justify-content: space-between;
+        height: 180px;
+        background: #fff;
+        position: relative;
+        margin-bottom: 40px;
+        &_image {
+            position: absolute;
+            bottom: 0;
+        }
+        &_descr {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;
+            color: #272D31;
+            margin-top: 45px;
+            width: 280px;
+            position: absolute;
+            right: 40px;
+        }
+    }
+}

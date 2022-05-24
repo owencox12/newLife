@@ -1,0 +1,66 @@
+.example {
+    min-height: 950px;
+    background: #fff;
+    &__title {
+        padding-top: 100px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 50%;
+        &_descr {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 130%;
+            color: #5F6970;
+            width: 560px;
+            margin-left: 40px;
+        }
+        &_blocks {
+            display: flex;
+            justify-content: space-between;
+            width: 560px;
+            height: 110px;
+            border: 1px solid #3E62AC;
+            border-radius: 8px;
+            margin-top: 40px;
+            &_block {
+                padding-left: 40px;
+                padding-top: 20px;
+                padding-bottom: 30px;
+                cursor: pointer;
+                width: 50;
+                &_active {
+                    background: rgba(53, 87, 156, 0.15);
+                    width: 70%;
+                    height: 56%;
+                }
+                &_second {
+                    border-left: 1px solid #3E62AC;
+                    padding-right: 30px;
+                }
+                &_title {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    color: #272D31;
+                }
+                &_price {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #272D31;
+                }
+            }
+        }
+    }
+}
